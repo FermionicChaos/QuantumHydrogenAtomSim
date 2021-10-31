@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MathExtended">
+      <UniqueIdentifier>{3d9bf612-18ec-4739-adcc-76300d10d746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathExtended\MathH">
+      <UniqueIdentifier>{01110b71-7584-4ab1-932f-d64c796b15d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathExtended\MathCPP">
+      <UniqueIdentifier>{473dee6c-feab-41bf-8642-d528fc36bcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f62c9935-8f87-425f-adee-009ebba75c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\StateGroup">
+      <UniqueIdentifier>{56bbb6c4-e27e-4905-b4c5-6fa155601ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\StateGroup\cpp">
+      <UniqueIdentifier>{7152487b-f3fe-4359-b46d-61b966f006af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\StateGroup\hpp">
+      <UniqueIdentifier>{1cd39b64-030e-4d38-9bed-edf69bba8336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects">
+      <UniqueIdentifier>{41bad037-7c91-4969-ad20-e91d59feadee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Headers">
+      <UniqueIdentifier>{46462c01-a26f-4723-86d3-37288751c520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Source">
+      <UniqueIdentifier>{752e3269-7d45-4732-b169-d3adca33c9c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C2.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Complex.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexFunctions.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsR1.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsR2.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="R1.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="R2.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="VecFieldR2.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="VecR2.cpp">
+      <Filter>MathExtended\MathCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularGameObject.cpp">
+      <Filter>Game\Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGameObject.cpp">
+      <Filter>Game\Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Game\StateGroup\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupState.cpp">
+      <Filter>Game\StateGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Game\StateGroup\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C2.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="Complex.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDA_Functions_R2.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexFunctions.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsR1.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsR2.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="R1.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="R2.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="VecFieldR2.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="VecR2.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="stdud.h" />
+    <ClInclude Include="extra.h" />
+    <ClInclude Include="cR1.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="cR2.h">
+      <Filter>MathExtended\MathH</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularGameObject.h">
+      <Filter>Game\Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGameObject.h">
+      <Filter>Game\Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Game\StateGroup\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupState.h">
+      <Filter>Game\StateGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Game\StateGroup\hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="H_Atom_v2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="CUDA_Functions_R2.cu">
+      <Filter>MathExtended\MathCPP</Filter>
+    </CudaCompile>
+    <CudaCompile Include="cR1.cu">
+      <Filter>MathExtended\MathCPP</Filter>
+    </CudaCompile>
+    <CudaCompile Include="cR2.cu">
+      <Filter>MathExtended\MathCPP</Filter>
+    </CudaCompile>
+    <CudaCompile Include="H_Atom_v2.cu" />
+  </ItemGroup>
+</Project>
