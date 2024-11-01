@@ -1,8 +1,4 @@
--- Alexander Jossart & Mohammed Yousif --
 REQUIRES AND NVIDIA GPU TO RUN
-
-Yousif contributed most to the menus and interfaces.
-Jossart worked on the simulation graphical and mathematical representations.
 
 This software employs the use of the GNU Scientific Library, SFML, Nvidia's CUDA toolkit,
 and several objects created specifically for this use. 
